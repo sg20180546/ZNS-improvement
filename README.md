@@ -5,9 +5,9 @@ research about rocksdb / zenfs / libzbd/ zone namespace SSD
 
 ## Todo 
 1) code hacking for zenfs / libzbd
-- zenfs : middleware of rocksdb between libzbd
+- zenfs : middleware between rocksdb and libzbd
 - libzbd : zone management tool between zenfs and kernel
-3) code hack for zone namespace firmware
+2) code hack for zone namespace firmware
 
 3) new alogorithm for Zone allocation at zenfs level
 
