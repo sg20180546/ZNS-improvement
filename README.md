@@ -11,4 +11,15 @@ research about rocksdb / zenfs / libzbd/ zone namespace SSD
 
 3) new alogorithm for Zone allocation at zenfs level
 
+how big sst file size -> average size of sst
+
+if left zone size big enough to restore new sst file, do not reset
+
+to small left zone size -> reset
+
+if zone block left, append to already_used_zone at first
+
+data structure
+- sorted linked list for already_used_zone sorted by left_size
+
 4) evaluation for caza, ZNS prototype
