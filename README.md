@@ -7,19 +7,13 @@ research about rocksdb / zenfs / libzbd/ zone namespace SSD
 1) code hacking for zenfs / libzbd
 - zenfs : middleware between rocksdb and libzbd
 - libzbd : zone management tool between zenfs and kernel
+ class ZonedBlockDeviceBackend
+  
+  ZoneFsBackend : Assume that device 'already' mounted with ZONE FILE SYSTEM
+  
+  ZbdlibBackend : raw zone block device , not mounted , treat as file bdev
 2) code hack for zone namespace firmware
 
 3) new alogorithm for Zone allocation at zenfs level
-
-how big sst file size -> average size of sst
-
-if left zone size big enough to restore new sst file, do not reset
-
-to small left zone size -> reset
-
-if zone block left, append to already_used_zone at first
-
-data structure
-- sorted linked list for already_used_zone sorted by left_size
 
 4) evaluation for caza, ZNS prototype
