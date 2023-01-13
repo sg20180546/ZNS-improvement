@@ -11,12 +11,16 @@ research about rocksdb / zenfs / libzbd/ zone namespace SSD
 
 2-1 ) ZNS FPGA prototype mount (done)
 
-2-2 ) observe zone command at ZenFS level
+2-2 ) observe zone command at ZenFS level (done)
 
-2-3 ) observe zone command at ZNS HARDWARE level
+2-3 ) observe zone command at ZNS HARDWARE level (done)
 
-2-4 ) check overhead of the command, write pointer
+2-4 ) check overhead of the command, write pointer (done)
+
+2-5 ) revise effecive zone command at ZenFS level (done)
 
 3 ) new alogorithm for Zone allocation at zenfs level
 
 4 ) evaluation for caza, ZNS prototype
+
+4-1 ) transplation caza for rocksdb (versioning issue)
