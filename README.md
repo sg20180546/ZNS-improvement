@@ -1,5 +1,5 @@
 # ZNS-improvement
-research about rocksdb / zenfs / libzbd/ zone namespace SSD
+research about Rocksdb/ZenFS/ZNS
 
 <img src="https://user-images.githubusercontent.com/81512075/208292592-21d26151-34a6-4847-8c02-e8bf0ae9955e.png" width=240 height=360 /> 
 
@@ -19,8 +19,16 @@ research about rocksdb / zenfs / libzbd/ zone namespace SSD
 
 2-5 ) revise effecive zone command at ZenFS level (done)
 
-3 ) new alogorithm for Zone allocation at zenfs level
+3 ) new alogorithm for Zone allocation at zenfs level (pending)
 
-4 ) evaluation for caza, ZNS prototype
+4 ) evaluation for caza, ZNS prototype (pending)
 
-4-1 ) transplation caza for rocksdb (versioning issue)
+4-1 ) transplation caza for rocksdb (pending)
+
+
+## Todo - FAR
+
+1) benchmarking all Alogrithm
+-> (10,12,14GB) / (EAGER,LAZY,FAR) / (Back,Fore)
+3) for Quotation : investigate SSD ERASE method, ZNS, Rocksdb
+4) first draft
